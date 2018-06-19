@@ -15,10 +15,44 @@
 .footer__name{
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: lighter;
+	display: block;
 	margin-top: -25px;
 	font-size: 60px;
 	color: #4c4c4c;
+	text-decoration: none;
 }
 .footer__name span{
 	color: #1abc9c;
+}
+.form__name{
+	width: 285px;
+	padding: 20px 0 20px 15px;
+	margin-bottom: 15px;
+}
+.form__email{
+	margin-left: 30px;
+	width: 285px;
+	padding: 20px 0 20px 15px;
+	margin-bottom: 15px;
+}
+.form__subject{
+	width: 623px;
+	padding: 20px 0 20px 15px;
+	margin-bottom: 30px;
+}
+.form__message{
+	width: 623px;
+	padding: 20px 0 170px 15px;
+}
+.form__submit{
+	margin-top: 60px;
+	background-color: #1abc9c;
+	color: white;
+	padding:20px 40px;
+	border: none;
+	cursor: pointer;
+}
+.form{
+	margin-top: 50px;
+	margin-left: 10vw;
 }

@@ -43,6 +43,7 @@
 .form__message{
 	width: 623px;
 	padding: 20px 0 170px 15px;
+	resize: none;
 }
 .form__submit{
 	margin-top: 60px;
@@ -55,4 +56,73 @@
 .form{
 	margin-top: 50px;
 	margin-left: 10vw;
+	position: relative;
+}
+.form__enter{
+	display: inline-block;
+}
+.form__text{
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	color: #939598;
+	font-size: 16px;
+	margin-left: 20px;
+	transform: translateY(-590px);
+}
+
+.pic{
+	background-color: #f7f7f7;
+	margin: 50px 10vw 0 10vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.pic__phone{
+	padding: 20px 100px;
+	border-right: 1px solid black;
+	margin: 20px 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.pic__phone a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 19px;
+	font-weight: lighter;
+	color: #1abc9c;
+}
+.pic__time{
+	padding: 20px 100px;
+	border-right: 1px solid black;
+	margin: 20px 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.pic__timetext{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #4c4c4c;
+	text-transform: none;
+}
+.pic__speak{
+	padding: 20px 100px;
+	margin: 20px 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.pic__speak a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #1abc9c;
 }
